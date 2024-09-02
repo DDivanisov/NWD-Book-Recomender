@@ -1,2 +1,2 @@
 env.js
-./src/frontend/node_modules/.cache/babel-loader/*.json
+/src/frontend/node_modules/.cache/babel-loader/*.json
