@@ -285,5 +285,6 @@
   }
   .comments {
     margin-top: 100px;
+    border-radius: 15px;
   }
 </style>

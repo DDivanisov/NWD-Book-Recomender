@@ -30,6 +30,8 @@ export default {
   border: 1px black solid;
   padding: 10px;
   margin: 10px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 15px;
 }
 
 .link-right {
@@ -38,6 +40,8 @@ export default {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 15px;
 }
 
 .link {

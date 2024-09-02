@@ -141,11 +141,13 @@
   }
 
   .wrap {
-    background-color: rgb(173, 216, 230, 0.8);
+    background-color: rgb(173, 216, 230, 0.01);
+    border-radius: 15px;
   }
   .add-comment {
     border: solid black 2px;
-    border-radius: 5%;
+    background-color: rgb(173, 216, 230, 0.8);
+    border-radius: 15px;
     margin-top: 10px;
     padding: 10px;
   }
@@ -168,7 +170,7 @@
       padding: 10px;
       margin: 10px;
       align-self: center;
-      border-radius: 4px;
+      border-radius: 10px;
       border: 1px solid #ccc;
     }
   
@@ -176,19 +178,21 @@
       align-self: flex-end;
       padding: 10px 20px;
       border: none;
-      border-radius: 4px;
-      background-color: #007bff;
+      border-radius: 10px;
+      background-color: green;
       color: #fff;
       cursor: pointer;
   
       &:hover {
-        background-color: #0056b3;
+        background-color: darkgreen;
       }
     }
   }
 
   .comm-detail{
     border: solid black 1px;
+    border-radius: 10px;
+    background-color: rgb(173, 216, 230, 0.7);;
     padding: 10px;
     margin-top: 10px;
     display: flex;
@@ -201,7 +205,7 @@
 
       button {
         border: soldi red 1px;
-        border-radius: 5%;
+        border-radius: 15px;
         min-width: 80px;
         color: white;
         background-color: red;
@@ -211,6 +215,7 @@
     }
     .description {
       border: gray solid 1px;
+      border-radius: 10px;
       background-color: lightgray;
       padding: 20px;
       max-width: 70%;
