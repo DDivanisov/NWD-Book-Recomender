@@ -1,0 +1,10 @@
+{
+  "name": "book-recommender",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently \"npm run serve --prefix frontend\" \"npm run start --prefix backend\""
+  },
+  "author": "Darko Divanisov",
+  "license": "ISC"
+}
